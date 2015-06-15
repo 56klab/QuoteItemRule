@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Quantility_QuoteItemRule>
+            <version>1.0.0.0</version>
+        </Quantility_QuoteItemRule>
+    </modules>
+    <global>
+        <models>
+            <salesrule>
+                <rewrite>
+                    <rule_condition_product>Quantility_QuoteItemRule_Model_SalesRule_Rule_Condition_Product</rule_condition_product>    
+                </rewrite>
+            </salesrule>
+        </models>
+    </global>
+</config>
